@@ -5,9 +5,13 @@ This is a script that uses Python and the “dpkt” library to identify potenti
 
 Scan Types included are:
 1.) Null Scan - Checking for packets with no flags set
+
 2.) Xmas Scan - Detects "Christmas Tree" packets (FIN, PUSH, and URG flags set)
+
 3.) Half-Open Scan - Identifies SYN scans where the connection is intentionally reset before finishing
+
 4.) Connect Scan - Finds full three-way handshakes that were successfully completed
+
 5.) UDP Scan - Detects connectionless probes while filtering out common network "noise"
 
 ## Instructions 
