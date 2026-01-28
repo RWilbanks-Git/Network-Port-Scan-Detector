@@ -4,6 +4,7 @@
 This is a script that uses Python and the “dpkt” library to identify potentially malicious scanning patterns.. Port scanning is often the first step an attacker takes to find open "doors" into a network; this tool automates the process of finding said attempts in a large amount of data. 
 
 Scan Types included are:
+
 1.) Null Scan - Checking for packets with no flags set
 
 2.) Xmas Scan - Detects "Christmas Tree" packets (FIN, PUSH, and URG flags set)
