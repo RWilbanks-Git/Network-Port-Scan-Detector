@@ -19,3 +19,5 @@ Scan Types included are:
 Install the dpkt library using "pip install dpkt"
 
 Run in terminal using: "python detector.py -i fileName.pcap" (with "fileName.pcap" being the name of the .pcap file in question)
+
+
